@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kusitha Food Court</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="yoyo.css">
+</head>
+<body>
+
+  <div class="topbar">
+    ✦ FRESH FOOD • GREAT TASTE • HAPPY MOMENTS ✦
+  </div>
+
+  <header>
+    <a href="#home" class="logo">
+      <span class="logo-icon">KF</span>
+      <span>KUSITHA<small>FOOD COURT</small></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle">☰</button>
+
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#menu">Our Menu</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a class="nav-button" href="#menu">Explore Menu ↗</a>
+  </header>
+
+  <!-- HERO SLIDESHOW -->
+  <section class="hero" id="home">
+
+    <div class="slide active">
+      <img
+        src="https://images.unsplash.com/photo-1633945274405-b6c8069047b0?auto=format&fit=crop&w=1800&q=85"
+        alt="Chicken biryani">
+      <div class="shade"></div>
+      <div class="hero-content">
+        <span class="eyebrow">THE BIRYANI EXPERIENCE</span>
+        <h1>Good food.<br><em>Great mood.</em></h1>
+        <p>Delicious biryanis, flavour-packed starters and
+          tasty favourites made for every craving.</p>
+        <a class="button" href="#menu">Explore Our Menu ↗</a>
+      </div>
+    </div>
+
+    <div class="slide">
+      <img
+        src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=1800&q=85"
+        alt="Noodles">
+      <div class="shade"></div>
+      <div class="hero-content">
+        <span class="eyebrow">HOT OFF THE WOK</span>
+        <h1>Twirl it.<br><em>Taste the magic.</em></h1>
+        <p>From sizzling noodles to delicious fried rice,
+          discover your new favourite meal.</p>
+        <a class="button" href="#menu">Discover Dishes ↗</a>
+      </div>
+    </div>
+
+    <div class="slide">
+      <img
+        src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=1800&q=85"
+        alt="Chicken starter">
+      <div class="shade"></div>
+      <div class="hero-content">
+        <span class="eyebrow">STARTERS WORTH SHARING</span>
+        <h1>A little spice.<br><em>A lot of joy.</em></h1>
+        <p>Crispy bites, spicy chicken and vegetarian
+          favourites served fresh.</p>
+        <a class="button" href="#menu">See Our Menu ↗</a>
+      </div>
+    </div>
+
+    <button class="arrow prev" id="prev">❮</button>
+    <button class="arrow next" id="next">❯</button>
+
+    <div class="slide-controls">
+      <span id="slideNumber">01</span>
+      <button class="dot active" data-slide="0" aria-label="Slide 1"></button>
+      <button class="dot" data-slide="1" aria-label="Slide 2"></button>
+      <button class="dot" data-slide="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="marquee">
+      BIRYANI ✦ NOODLES ✦ FRIED RICE ✦ STARTERS ✦ ROLLS ✦
+      BIRYANI ✦ NOODLES ✦ FRIED RICE ✦ STARTERS ✦ ROLLS ✦
+    </div>
+  </section>
+
+  <!-- FOOD MENU -->
+  <section class="menu-section" id="menu">
+
+    <div class="section-heading">
+      <span class="eyebrow dark">MADE FOR YOUR CRAVINGS</span>
+      <h2>Explore Our <em>Menu</em></h2>
+      <p>Find something delicious for every mood.</p>
+    </div>
+
+    <div class="filters">
+      <button class="filter active" data-category="all">All Dishes</button>
+      <button class="filter" data-category="biryani">Biryanis</button>
+      <button class="filter" data-category="chinese">Chinese</button>
+      <button class="filter" data-category="nonveg">Non-Veg Starters</button>
+      <button class="filter" data-category="veg">Veg Starters</button>
+      <button class="filter" data-category="rolls">Rolls & Eggs</button>
+    </div>
+
+    <p class="dish-count" id="dishCount"></p>
+
+    <div class="food-grid" id="foodGrid"></div>
+
+    <p class="price-note">
+      Menu prices are indicative. Please confirm current prices and availability.
+    </p>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about" id="about">
+
+    <div class="about-image">
+      <img
+        src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=1000&q=85"
+        alt="Delicious Indian food">
+    </div>
+
+    <div class="about-content">
+      <span class="eyebrow">WELCOME TO KUSITHA</span>
+      <h2>Big flavour.<br><em>Warm welcome.</em></h2>
+
+      <p>
+        Whether you are craving a biryani lunch, evening noodles
+        or crispy starters with friends, Kusitha Food Court
+        is your neighbourhood food destination.
+      </p>
+
+      <a class="button" href="#contact">Visit Us ↗</a>
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+
+    <div>
+      <span class="eyebrow dark">COME SAY HELLO</span>
+      <h2>Hungry yet?<br><em>Come on in.</em></h2>
+      <p>We look forward to serving you!</p>
+    </div>
+
+    <div class="contact-card">
+      <h3>📍 Our Location</h3>
+      <p>
+        Kushitha Food Court<br>
+        Deepanjali Nagar, Swayambuvaram,<br>
+        Visakhapatnam, Andhra Pradesh 531020
+      </p>
+
+      <h3>☎ Contact Us</h3>
+      <p>
+        <a href="tel:9014301641">9014301641</a><br>
+        <a href="tel:6361523393">6361523393</a>
+      </p>
+
+      <a
+        class="button"
+        target="_blank"
+        rel="noopener"
+        href="https://maps.app.goo.gl/xcptnQ96CLG9oPTMA">
+        Get Directions ↗
+      </a>
+    </div>
+
+  </section>
+
+  <footer>
+    <a href="#home" class="logo">
+      <span class="logo-icon">KF</span>
+      <span>KUSITHA<small>FOOD COURT</small></span>
+    </a>
+    <p>Good food brings people together.</p>
+    <p>© <span id="year"></span> Kusitha Food Court</p>
+  </footer>
+
+  <button id="backTop" aria-label="Back to top">↑</button>
+
+  <script src="zzz.js"></script>
+</body>
+</html>
