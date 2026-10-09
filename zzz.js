@@ -6,7 +6,7 @@ const dishes = [
     price: 120,
     tag: "Favourite",
     desc: "Fragrant rice with warming spices.",
-    image: "C:\\Users\\dilee\\Downloads\\mario-raj-ysmeQt1dzcw-unsplash.jpg"
+    image: "mario-raj-ysmeQt1dzcw-unsplash.jpg"
   },
   {
     name: "Fry Piece Biryani",
@@ -14,7 +14,7 @@ const dishes = [
     price: 130,
     tag: "Popular",
     desc: "Flavourful biryani with chicken pieces.",
-    image: "C:\\Users\\dilee\\Downloads\\fry.webp"
+    image: "fry.webp"
   },
   {
     name: "Lollipop Biryani",
@@ -22,7 +22,7 @@ const dishes = [
     price: 150,
     tag: "Spicy",
     desc: "Biryani served with chicken lollipop.",
-    image: "C:\\Users\\dilee\\Downloads\\lollipop.jpg"
+    image: "lollipop.jpg"
   },
   {
     name: "Mughalai Biryani",
@@ -30,7 +30,7 @@ const dishes = [
     price: 150,
     tag: "Classic",
     desc: "Rich, aromatic biryani.",
-    image: "C:\\Users\\dilee\\Downloads\\mughlai.jpg"
+    image: "mughlai.jpg"
   },
  
   {
@@ -39,7 +39,7 @@ const dishes = [
     price: 80,
     tag: "Wok Tossed",
     desc: "Noodles with chicken and vegetables.",
-    image: "C:\\Users\\dilee\\Downloads\\noodles c.jpg"
+    image: "noodles c.jpg"
   },
   {
     name: "Egg Noodles",
@@ -47,7 +47,7 @@ const dishes = [
     price: 60,
     tag: "Popular",
     desc: "Noodles tossed with egg and sauces.",
-    image: "C:\\Users\\dilee\\Downloads\\noodles e.jpg"
+    image: "noodles e.jpg"
   },
   {
     name: "Veg Noodles",
@@ -63,7 +63,7 @@ const dishes = [
     price: 90,
     tag: "Popular",
     desc: "Fried rice with chicken and vegetables.",
-    image: "C:\\Users\\dilee\\Downloads\\friedrice.webp"
+    image: "friedrice.webp"
   },
   {
     name: "Egg Fried Rice",
@@ -71,7 +71,7 @@ const dishes = [
     price: 80,
     tag: "Classic",
     desc: "Wok-fried rice with egg.",
-    image: "C:\\Users\\dilee\\Downloads\\egg fried rice.webp"
+    image: "egg fried rice.webp"
   },
   {
     name: "Veg Fried Rice",
@@ -87,7 +87,7 @@ const dishes = [
     price: 110,
     tag: "Spicy",
     desc: "Chicken tossed in chilli sauce.",
-    image: "C:\\Users\\dilee\\Downloads\\Chilli_Chicken.webp"
+    image: "Chilli_Chicken.webp"
   },
  
   {
@@ -96,7 +96,7 @@ const dishes = [
     price: 140,
     tag: "Favourite",
     desc: "Crispy chicken with Indian spices.",
-    image: "C:\\Users\\dilee\\Downloads\\Chicken65.webp"
+    image: "Chicken65.webp"
   },
   {
     name: "Chicken Lollipop",
@@ -112,7 +112,7 @@ const dishes = [
     price: 80,
     tag: "Vegetarian",
     desc: "Vegetable bites in Manchurian sauce.",
-    image: "C:\\Users\\dilee\\Downloads\\veg manchurain.jpg"
+    image: "veg manchurain.jpg"
   },
 
   {
@@ -121,7 +121,7 @@ const dishes = [
     price: 120,
     tag: "Vegetarian",
     desc: "Spicy, crispy paneer bites.",
-    image: "C:\\Users\\dilee\\Downloads\\paneer-65.webp"
+    image: "paneer-65.webp"
   },
   {
     name: "Chicken Roll",
@@ -145,7 +145,7 @@ const dishes = [
     price: 30,
     tag: "Eggs",
     desc: "Freshly prepared double egg omelette.",
-    image: "C:\\Users\\dilee\\Downloads\\egg.jpg"
+    image: "egg.jpg"
   }
 ];
 
